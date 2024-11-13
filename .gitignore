@@ -1,0 +1,7 @@
+*.pyc
+sam_masks/*
+*wandb*
+*__pycache__*
+*.npz
+checkpoints/*
+*.pkl
