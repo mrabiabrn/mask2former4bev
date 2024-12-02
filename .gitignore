@@ -5,3 +5,4 @@ sam_masks/*
 *.npz
 checkpoints/*
 *.pkl
+._*

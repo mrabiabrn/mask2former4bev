@@ -52,7 +52,7 @@ def get_args():
     parser.add_argument('--log_freq', type=int, default=10)
 
     # === Backbone Related Parameters ===
-    parser.add_argument('--backbone', type=str, default="res101-simplebev", 
+    parser.add_argument('--backbone', type=str, default="deit_tiny", 
                         choices=["res50","res101-simplebev", "dino-vitb-16","swin","deit_tiny","cnn","dinov2"])
     parser.add_argument('--freeze_backbone', type=int, default=0),
     parser.add_argument('--output_layer', type=str, default='res4')
